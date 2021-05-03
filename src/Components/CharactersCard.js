@@ -6,7 +6,6 @@ import {
   CardContent,
   Typography,
   CardMedia,
-  Grid,
   Button,
   Dialog,
   DialogTitle,

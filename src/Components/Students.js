@@ -1,7 +1,7 @@
 import { makeStyles, Grid, } from "@material-ui/core";
 import React from "react";
 import CharactersCard from "./CharactersCard";
-import HeaderStudents from "./Headerds/HeaderStudents";
+import HeaderStudents from "./Headers/HeaderStudents";
 
 
 const Students = (props) => {

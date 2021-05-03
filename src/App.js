@@ -11,7 +11,7 @@ function App() {
   const [wizards, setWizards] = useState([]);
 
   const getMyWizard = async () => {
-    const response = await fetch("http://hp-api.herokuapp.com/api/characters");
+    const response = await fetch("https://hp-api.herokuapp.com/api/characters");
     const resData = await response.json();
 
     setWizards(resData);

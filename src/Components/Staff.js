@@ -1,7 +1,7 @@
 import { makeStyles, Grid } from '@material-ui/core'
 import React from 'react'
 import CharactersCard from "./CharactersCard"
-import HeaderStaff from './Headerds/HeaderStaff'
+import HeaderStaff from './Headers/HeaderStaff'
 
 
 
