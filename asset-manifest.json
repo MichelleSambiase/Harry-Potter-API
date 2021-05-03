@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/Harry-Potter-API/static/css/main.d68bec67.chunk.css",
-    "main.js": "/Harry-Potter-API/static/js/main.48760167.chunk.js",
-    "main.js.map": "/Harry-Potter-API/static/js/main.48760167.chunk.js.map",
+    "main.js": "/Harry-Potter-API/static/js/main.3ee14f11.chunk.js",
+    "main.js.map": "/Harry-Potter-API/static/js/main.3ee14f11.chunk.js.map",
     "runtime-main.js": "/Harry-Potter-API/static/js/runtime-main.e2b2951c.js",
     "runtime-main.js.map": "/Harry-Potter-API/static/js/runtime-main.e2b2951c.js.map",
-    "static/js/2.da4632b1.chunk.js": "/Harry-Potter-API/static/js/2.da4632b1.chunk.js",
-    "static/js/2.da4632b1.chunk.js.map": "/Harry-Potter-API/static/js/2.da4632b1.chunk.js.map",
+    "static/js/2.fe161d92.chunk.js": "/Harry-Potter-API/static/js/2.fe161d92.chunk.js",
+    "static/js/2.fe161d92.chunk.js.map": "/Harry-Potter-API/static/js/2.fe161d92.chunk.js.map",
     "index.html": "/Harry-Potter-API/index.html",
     "static/css/main.d68bec67.chunk.css.map": "/Harry-Potter-API/static/css/main.d68bec67.chunk.css.map",
-    "static/js/2.da4632b1.chunk.js.LICENSE.txt": "/Harry-Potter-API/static/js/2.da4632b1.chunk.js.LICENSE.txt",
+    "static/js/2.fe161d92.chunk.js.LICENSE.txt": "/Harry-Potter-API/static/js/2.fe161d92.chunk.js.LICENSE.txt",
     "static/media/Index.css": "/Harry-Potter-API/static/media/harryPotter.330929cc.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e2b2951c.js",
-    "static/js/2.da4632b1.chunk.js",
+    "static/js/2.fe161d92.chunk.js",
     "static/css/main.d68bec67.chunk.css",
-    "static/js/main.48760167.chunk.js"
+    "static/js/main.3ee14f11.chunk.js"
   ]
 }
