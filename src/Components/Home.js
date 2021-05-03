@@ -35,7 +35,13 @@ const Home = (props) => {
       fontSize: "20px",
       color: "#ded7d1",
       fontStyle: "italic",
-      borderBottom: "2px solid #b19c95",
+      borderBottom: "none",
+      background: "inherit",
+      width: "100%",
+      borderBottom: "ridge 1px",
+      borderTop: "none",
+      borderLeft: "none",
+      borderRight: "none",
     },
   });
 
@@ -52,18 +58,18 @@ const Home = (props) => {
   const handleCloseOk = () => {
     if (answer === "always") {
       setOpen(false);
-      sessionStorage.setItem('keyWord', "true")
+      sessionStorage.setItem("keyWord", "true");
     } else {
       alert("That's not the answer that Snape told to Dumbledore");
     }
   };
 
-  useEffect(() =>{
-    let data = sessionStorage.getItem('keyWord')
-    if(data === "true"){
-      setOpen(false)
+  useEffect(() => {
+    let data = sessionStorage.getItem("keyWord");
+    if (data === "true") {
+      setOpen(false);
     }
-  },[])
+  }, []);
 
   const classes = useStyles();
   return (
@@ -80,13 +86,12 @@ const Home = (props) => {
             After all this time?
           </DialogContentText>
           <form>
-            <Input
+            <input
               onChange={onChangeAnswer}
               className={classes.styleInput}
               autoFocus
               margin="dense"
               id="name"
-              placeholder="Said Snape..."
               answer={answer}
               fullWidth
             />
