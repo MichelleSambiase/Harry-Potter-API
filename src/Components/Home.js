@@ -13,7 +13,7 @@ import {
 } from "@material-ui/core";
 import React, { useEffect, useState } from "react";
 import CharactersCard from "./CharactersCard";
-import Header from "./Headerds/Header";
+import Header from "./Headers/Header";
 
 const Home = (props) => {
   const useStyles = makeStyles({
