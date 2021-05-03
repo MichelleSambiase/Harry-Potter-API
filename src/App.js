@@ -23,9 +23,9 @@ function App() {
     <div className="App">
       <Navbar />
       
-      <Route exact path="/" render={() => <Home wizards={wizards} />}></Route>
-      <Route   render={() => <Students wizards={wizards} />} exact path="/Students" />
-      <Route   render={() => <Staff wizards={wizards} />} exact path="/Staff" />
+      <Route exact path="/Harry-Potter-API" render={() => <Home wizards={wizards} />}></Route>
+      <Route   render={() => <Students wizards={wizards} />} exact path="/Harry-Potter-API/Students" />
+      <Route   render={() => <Staff wizards={wizards} />} exact path="/Harry-Potter-API/Staff" />
     </div>
   );
 }

@@ -27,15 +27,15 @@ const useStyles = makeStyles({
 });
 const Navbar = (props) => {
   const handleClickInicio = () => {
-    props.history.push("/");
+    props.history.push("/Harry-Potter-API");
   };
 
   const handleClickStudents = () => {
-    props.history.push("/Students");
+    props.history.push("/Harry-Potter-API/Students");
   };
 
   const handleClickStaff = () => {
-    props.history.push("/Staff");
+    props.history.push("/Harry-Potter-API/Staff");
   };
 
   const classes = useStyles();
