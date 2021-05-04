@@ -10,14 +10,13 @@ const Students = (props) => {
       marginTop: "100px",
     },
     styleStudents: {
-      marginTop:'100px',
       justifyContent: "center",
     },
   });
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <HeaderStudents/>
+      <HeaderStudents />
       <Grid container className={classes.styleStudents}>
         {props.wizards
           .filter((wizard) => wizard.hogwartsStudent === true)

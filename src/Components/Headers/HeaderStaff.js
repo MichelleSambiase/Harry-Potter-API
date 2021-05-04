@@ -42,7 +42,6 @@ const HeaderStaff = () => {
     <div>
       <div className={classes.rootFather}>
         <Grid container className={classes.styleHeader}>
-        
         </Grid>
       </div>
     </div>

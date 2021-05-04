@@ -2,28 +2,31 @@ import { makeStyles, Typography, Grid } from "@material-ui/core";
 import React from "react";
 
 const HeaderStudents = () => {
-  const useStyles = makeStyles((theme) =>({
+  const useStyles = makeStyles((theme) => ({
     rootFather: {
       width: "100%",
       marginTop: "80px",
       display: "flex",
       justifyContent: "center",
+      [theme.breakpoints.down('sm')]: {
+
+      },
     },
     styleHeader: {
       display: "flex",
       justifyContent: "center",
       boxShadow: "-1px 0px 20px 3px rgb(78 50 44)",
       height: "550px",
-      width:'55%',
+      width: '55%',
       fontStyle: "italic",
-      [theme.breakpoints.down('sm')]:{
-        boxShadow:'none'
+      [theme.breakpoints.down('sm')]: {
+        boxShadow: 'none'
       },
-      [theme.breakpoints.down('md')]:{
-        boxShadow:'none'
+      [theme.breakpoints.down('md')]: {
+        boxShadow: 'none'
       },
-      [theme.breakpoints.down('lg')]:{
-        boxShadow:'none'
+      [theme.breakpoints.down('lg')]: {
+        boxShadow: 'none'
       },
     },
     styleTitle: {
@@ -34,7 +37,7 @@ const HeaderStudents = () => {
       fontStyle: "italic",
       [theme.breakpoints.down('sm')]: {
         fontSize: "30px",
-       
+
       }
     },
   }));
@@ -43,7 +46,7 @@ const HeaderStudents = () => {
     <div>
       <div className={classes.rootFather}>
         <Grid container className={classes.styleHeader}>
-   
+
         </Grid>
       </div>
     </div>

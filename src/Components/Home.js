@@ -18,7 +18,7 @@ import Header from "./Headers/Header";
 const Home = (props) => {
   const useStyles = makeStyles({
     root: {
-      marginTop:"200px",
+  
       display:'flex',
       justifyContent: "center",
     },

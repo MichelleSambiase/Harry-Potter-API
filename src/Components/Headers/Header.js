@@ -1,4 +1,4 @@
-import { Grid, makeStyles, Typography } from "@material-ui/core";
+import { Grid, makeStyles} from "@material-ui/core";
 import React from "react";
 
 const Header = () => {
@@ -43,9 +43,8 @@ const Header = () => {
     <div>
       <div className={classes.root}>
         <Grid container className={classes.styleHeader}>
-          <Typography className={classes.styleTitle} variant="h1">
-         
-          </Typography>
+          <div className={classes.styleTitle} variant="h1">
+          </div>
         </Grid>
       </div>
     </div>
