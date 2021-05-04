@@ -18,7 +18,8 @@ import Header from "./Headers/Header";
 const Home = (props) => {
   const useStyles = makeStyles({
     root: {
-      marginTop: "100px",
+      marginTop:"200px",
+      display:'flex',
       justifyContent: "center",
     },
     styleDialog: {
@@ -42,7 +43,11 @@ const Home = (props) => {
       borderTop: "none",
       borderLeft: "none",
       borderRight: "none",
+      outline:'none'
     },
+    styleButtonOK:{
+      color: "#ece7e2",
+    }
   });
 
   const [open, setOpen] = useState(true);
@@ -96,7 +101,7 @@ const Home = (props) => {
               fullWidth
             />
             <DialogActions>
-              <Button onClick={handleCloseOk}>Ok</Button>
+              <Button className={classes.styleButtonOK} onClick={handleCloseOk}>Ok</Button>
             </DialogActions>
           </form>
         </DialogContent>

@@ -19,7 +19,7 @@ const CharactersCard = (props) => {
     styleCardWizars: {
       width: "300px",
       height: "600px",
-      margin: "10px",
+      marginTop: "200px",
     },
     styleImgWizard: {
       height: "600px",

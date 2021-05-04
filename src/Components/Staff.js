@@ -14,7 +14,7 @@ const Staff = (props) => {
           },
         styleStaff:{
           marginTop:'100px',
-            justifyContent:'center'
+            justifyContent:'center',
         }
     })
     const classes = useStyles();

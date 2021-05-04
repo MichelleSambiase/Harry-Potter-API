@@ -19,7 +19,7 @@ const useStyles = makeStyles({
   },
   styleNavbarItems: {
     fontSize: "22px",
-    color: "#ded7d1",
+    color: "#613331",
     fontFamily: "DM Serif Display, serif",
     fontStyle: "italic",
     marginLeft: "auto",
