@@ -61,7 +61,8 @@ const Home = (props) => {
     setAnswer(e.target.value);
   };
   const handleCloseOk = () => {
-    if (answer === "always") {
+    let upperCaseAnswer = answer.toUpperCase()
+    if (upperCaseAnswer === "ALWAYS") {
       setOpen(false);
       sessionStorage.setItem("keyWord", "true");
     } else {
