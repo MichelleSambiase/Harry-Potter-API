@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/Index.css"],"names":[],"mappings":"AAAA,KACI,QAAS,CACT,6EAA6D,CAC7D,2BAA4B,CAC5B,2BAEJ","file":"main.01cb5956.chunk.css","sourcesContent":["body {\r\n    margin: 0;\r\n    background-image: url(/src/Components/images/harryPotter.jpg);\r\n    background-attachment: fixed;\r\n    background-repeat: no-repeat;\r\n\r\n}\r\n\r\n"]}
